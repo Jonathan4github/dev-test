@@ -25,6 +25,7 @@ const Targets = () => (
                                 imageBackground={rectangleBlue} 
                                 color={colors.blue} 
                                 title="All Targets"
+                                width={50}
                             />
                         </div>
                         <div className="product-target">
@@ -32,6 +33,7 @@ const Targets = () => (
                                 imageBackground={squareOrange} 
                                 color={colors.orange} 
                                 title="Product Target"
+                                width={60}
                             />
                         </div>
                         <div className="sales-target">
@@ -39,6 +41,7 @@ const Targets = () => (
                                 imageBackground={squarePurple} 
                                 color={colors.purple}
                                 title="Sales Target"
+                                width={36}
                             />
                         </div>
                     </div>

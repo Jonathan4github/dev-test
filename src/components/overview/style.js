@@ -28,11 +28,25 @@ const Container = Styled.div`
     letter-spacing: -0.01em;
   }
 
-  div{
+  .row {
     margin:8px;
     display:flex;
     justify-content:space-between;
     text-align:right;
+    padding-bottom:18px;
+  }
+
+  .row > span > p {
+    margin:0;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .row > span {
+    font-size: 11px;
+    line-height: 13px;
+    text-align: right;
   }
   
 }

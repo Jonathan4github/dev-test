@@ -18,7 +18,7 @@ const Container = Styled.div`
         padding:8px;
         border: 1px solid #D5D7DD;
         border-radius: 3px;
-        width:30%;
+        width:25%;
     }
     button {
         border:none;
@@ -64,7 +64,7 @@ const Container = Styled.div`
     .overview-section{
         margin-bottom:48px;
         display:grid;
-        grid-template-columns: 437px auto auto;
+        grid-template-columns: 370px auto auto;
         grid-gap: 5px;
     }
     
