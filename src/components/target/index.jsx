@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {Container, Heading} from './style';
 import Progressbar from '../progressbar';
 import mapPinIcon from '../../assets/map-pin.svg'
@@ -27,6 +28,11 @@ const Target = ({ color, target }) => {
             </div>
         </Container>
     )
+}
+
+Progressbar.propTypes = {
+    color:PropTypes.string,
+    Target:PropTypes.object
 }
 
 export default Target;

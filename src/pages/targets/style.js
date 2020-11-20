@@ -32,6 +32,7 @@ const Container = Styled.div`
         line-height: 15px;
         letter-spacing: -0.02em;
         color: #1773CF;
+        cursor:pointer;
     }
     .filter-section > span {
         font-weight: 700;
@@ -40,6 +41,7 @@ const Container = Styled.div`
         letter-spacing: -0.01em;
         color: #EF5252;
         margin-left:16px;
+        cursor:pointer;
     }
     select {
         padding:8px;
@@ -58,7 +60,7 @@ const Container = Styled.div`
         background: rgba(28, 54, 84, 0.3) url(${caret}) no-repeat;
         background-position:right 10px top 50%;
     }
-    select:focus {
+    select:focus, button:focus, input:focus {
         outline:none;
     }
     .overview-section{

@@ -8,6 +8,7 @@ const SideMenuContainer = styled.div`
     margin-top:-70px;
     padding-top:106px;
     padding-bottom:80px;
+    position:fixed;
 
     .company-logo {
         padding:10px 24px;
