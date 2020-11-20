@@ -2,7 +2,7 @@
 
 git clone https://github.com/Jonathan4github/dev-test/
 
-`cd Quick_credit`
+`cd dev-test`
 
 Install require dependencies
 
