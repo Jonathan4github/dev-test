@@ -4,7 +4,8 @@ const colors = {
     progress:'#FCBB18',
     purple:'#A629BB',
     orange:'#f7bc29',
-    blue:'#2671d9'
+    blue:'#2671d9',
+    black:'#0B50DA'
 }
 
 export default colors;

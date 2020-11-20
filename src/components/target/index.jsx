@@ -2,10 +2,12 @@ import PropTypes from 'prop-types';
 import {Container, Heading} from './style';
 import Progressbar from '../progressbar';
 import mapPinIcon from '../../assets/map-pin.svg'
+import Colors from '../../utils/colors';
 
 const Target = ({ color, target }) => {
     const { description, achieved, location, monthTarget, leftToGo, dailyTarget, progressStatus  } = target;
-    const progressBarColor = color==='#FCBB18'? '#0B50DA': color;
+    const {progress, black} = Colors;
+    const progressBarColor = color===progress? black: color;
 
     return (
         <Container color={color}>
