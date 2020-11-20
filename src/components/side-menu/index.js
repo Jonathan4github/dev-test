@@ -9,13 +9,13 @@ const SideMenu = () => (
     <SideMenuContainer>
         <div className="company-logo"><Logo /></div>
         <ul className="menu">
-        <li><Link to="/"><img src={rectangle} /></Link></li>
-        <li><Link to="/"><img src={rectangle} /></Link></li>
-        <li><Link to="/"><img src={rectangle} /></Link></li>
-        <li><Link to="/"><img src={rectangle} /></Link></li>
-        <li><Link to="/"><img src={rectangle} /></Link></li>
-        <li><Link to="/"><img src={rectangle} /></Link></li>
-        <li><Link to="/"><img src={rectangle} /></Link></li>
+        <li><Link to="/"><img src={rectangle} alt="rectange" /></Link></li>
+        <li><Link to="/"><img src={rectangle} alt="rectange"  /></Link></li>
+        <li><Link to="/"><img src={rectangle} alt="rectange"  /></Link></li>
+        <li><Link to="/"><img src={rectangle} alt="rectange"  /></Link></li>
+        <li><Link to="/"><img src={rectangle} alt="rectange"  /></Link></li>
+        <li><Link to="/"><img src={rectangle} alt="rectange"  /></Link></li>
+        <li><Link to="/"><img src={rectangle} alt="rectange"  /></Link></li>
         <li className="selected"><Link to="/"><i className="icon"><img src={targets} /></i> Target</Link></li>
         </ul>
     </SideMenuContainer>

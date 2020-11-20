@@ -7,6 +7,7 @@ const Container = styled.div`
     .main-column{
         flex-grow:1;
         padding: 14px 16px;
+        margin-left:280px;
     }
 
 `
